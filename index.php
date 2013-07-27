@@ -9,10 +9,25 @@
 		<div class="inner-wrapper opaque">
 			<div class="header-container">
 				<div class="upper-header">
-
 				</div>
 				<div class="lower-header">
-
+					<div class="menubar-container">
+						<div class="menu-item">
+							Home
+						</div>
+						<div class="menu-item">
+							Sports
+						</div>
+						<div class="menu-item">
+							About Us
+						</div>
+						<div class="menu-item">
+							Contact Us
+						</div>
+						<div class="menu-item last-menu-item">
+							Gallery
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="main-content">
