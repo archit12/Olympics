@@ -1,86 +1,35 @@
 <html>
 <head>
-	<title>Olympics India | Home</title>
-	<script type="text/javascript" src="js/script.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<title>Olympics | Home</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/stylenew.css">
+
 </head>
 <body>
-	<div class="wrapper">
-		<div class="header">
-			<div class="upper-header">
-				<div class="search-box-container">
-					<div class="logo-container">
-					</div>
-					<div class="search-box">
-					</div>
+	<div class="wrapper translucent">
+		<div class="inner-wrapper opaque">
+			<div class="header-container">
+				<div class="upper-header">
+
 				</div>
-				<div class="search-results">
+				<div class="lower-header">
+
 				</div>
-				<div class="signin-container">
-					<div class="sign" id="sign-in">
-						Sign In
+			</div>
+			<div class="main-content">
+				<div class="slideshow-container">
+
+				</div>
+				<div class="content-container">
+					<div class="text-container">
+						<br/><br/><br/><br/><br/><br/><br/><br/><h1>Home</h1><br/>Welcome to Olymipics India.<br/>This is a place where you can find out everything about
+						Olympics.<br/>Register here to get a global recognition and world class training.
 					</div>
-					<div class="sign" id="sign-up">
-						Sign Up
+					<div class="newsfeed-container">
 					</div>
 				</div>
 			</div>
-			<div class="lower-header">
-				<div class="menu-container">
-					<div class="menu-element" id="menu1">
-						Home
-					</div>
-					<div class="menu-element" id="menu1">
-						Sports
-					</div>
-					<div class="menu-element" id="menu1">
-						About Us
-					</div>
-					<div class="menu-element" id="menu1">
-						Articles
-					</div>
-				</div>
-				<div class="title-container">
-					Olympics
-				</div>
-			</div>
-		</div>
-		<div class="main-content">
-			<div class="slideshow-container">
-				<img src="images/image.jpg">
-			</div>
-			<div class="newsfeeds-container">
-				<div class="newsfeed-heading">
-					News Feeds
-				</div>
-				<div class="newsfeed-content">
-				</div>
-			</div>
-			<div class="Text-container">
-				<h2>Introduction</h2>
-				This is a sample description about the site.
-				We do splendid work here. <br/>This design is complete crap though.<br/> By the way did you know that the battle of Hogwarts took place here.<br/>
-				<p> Yes, in this very website. That's why it's all RED! bwahaha!
-				</p>
-			</div>
-		</div>
-		<div class="footer">
-			<div class="footer-content">
-				Powered by Software Incubator
-			</div>
-			<div class="social-container">
-				<div class="social-plugin" id="facebook">
-					<img src="images/fb.png">
-				</div>
-				<div class="social-plugin" id="google">
-					<img src="images/go.png">
-				</div>
-				<div class="social-plugin" id="twitter">
-					<img src="images/tw.png">
-				</div>
-				<div class="social-plugin" id="youtube">
-					<img src="images/yt.png">
+			<div class="footer-container">
+				<div class="footer">
 				</div>
 			</div>
 		</div>
