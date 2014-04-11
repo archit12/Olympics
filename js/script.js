@@ -129,15 +129,15 @@ $(document).ready(function () {
 	});
 	//social icons- open
 	function next_social(){
-		current = $('.social-container').children().filter('.invisible').first();
-		if(current.length>0){
-			current.toggleClass('invisible');
-			current.toggleClass('visible');
-			current.animate({
+		var current_social = $('.social-container').children().filter('.invisible').first();
+		if(current_social.length>0){
+			current_social.toggleClass('invisible');
+			current_social.toggleClass('visible');
+			current_social.animate({
 				'margin-right' : '+='+val
 			}, 200, function(){
 				val+=50;
-				if (current.length>0) {
+				if (current_social.length>0) {
 					next = next_social();
 				}
 			});
@@ -147,14 +147,14 @@ $(document).ready(function () {
 	}
 	//social plugin icons- collapse
 	function prev_social(){
-		current = $('.social-container').children().filter('.visible').first();
-		if(current.length>0){
-			current.animate({
+		current_social = $('.social-container').children().filter('.visible').first();
+		if(current_social.length>0){
+			current_social.animate({
 				'margin-right' : 0
 			}, 200, function(){
-				if (current.length>0) {
-					current.toggleClass('invisible');
-					current.toggleClass('visible');
+				if (current_social.length>0) {
+					current_social.toggleClass('invisible');
+					current_social.toggleClass('visible');
 					prev = prev_social();
 				}
 			});
